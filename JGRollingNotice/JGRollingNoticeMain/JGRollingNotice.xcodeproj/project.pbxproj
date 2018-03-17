@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF23DC9C205B9187007F033D /* JGCustomNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF23DC9B205B9187007F033D /* JGCustomNoticeCell.m */; };
+		BF2B283E205910AD007A315B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B283D205910AD007A315B /* AppDelegate.m */; };
+		BF2B2841205910AD007A315B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B2840205910AD007A315B /* ViewController.m */; };
+		BF2B2844205910AD007A315B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B2842205910AD007A315B /* Main.storyboard */; };
+		BF2B2846205910AD007A315B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2B2845205910AD007A315B /* Assets.xcassets */; };
+		BF2B2849205910AD007A315B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B2847205910AD007A315B /* LaunchScreen.storyboard */; };
+		BF2B284C205910AD007A315B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B284B205910AD007A315B /* main.m */; };
+		BF2B2856205910AD007A315B /* JGRollingNoticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B2855205910AD007A315B /* JGRollingNoticeTests.m */; };
+		BF2B2861205910AD007A315B /* JGRollingNoticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B2860205910AD007A315B /* JGRollingNoticeUITests.m */; };
+		BF2B2870205912D2007A315B /* JGRollingNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B286F205912D2007A315B /* JGRollingNoticeView.m */; };
+		BF2B287420591315007A315B /* JGNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B287320591315007A315B /* JGNoticeViewCell.m */; };
+		BF2B287820591448007A315B /* CustomNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2B287520591447007A315B /* CustomNoticeCell.m */; };
+		BF2B287920591448007A315B /* CustomNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2B287720591447007A315B /* CustomNoticeCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2B2852205910AD007A315B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2B2831205910AD007A315B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2B2838205910AD007A315B;
+			remoteInfo = JGRollingNotice;
+		};
+		BF2B285D205910AD007A315B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2B2831205910AD007A315B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2B2838205910AD007A315B;
+			remoteInfo = JGRollingNotice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF23DC9A205B9187007F033D /* JGCustomNoticeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGCustomNoticeCell.h; sourceTree = "<group>"; };
+		BF23DC9B205B9187007F033D /* JGCustomNoticeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGCustomNoticeCell.m; sourceTree = "<group>"; };
+		BF2B2839205910AD007A315B /* JGRollingNotice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGRollingNotice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2B283C205910AD007A315B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF2B283D205910AD007A315B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF2B283F205910AD007A315B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF2B2840205910AD007A315B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF2B2843205910AD007A315B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2B2845205910AD007A315B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2B2848205910AD007A315B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2B284A205910AD007A315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2B284B205910AD007A315B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2B2851205910AD007A315B /* JGRollingNoticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGRollingNoticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2B2855205910AD007A315B /* JGRollingNoticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGRollingNoticeTests.m; sourceTree = "<group>"; };
+		BF2B2857205910AD007A315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2B285C205910AD007A315B /* JGRollingNoticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGRollingNoticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2B2860205910AD007A315B /* JGRollingNoticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGRollingNoticeUITests.m; sourceTree = "<group>"; };
+		BF2B2862205910AD007A315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2B286E205912D2007A315B /* JGRollingNoticeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGRollingNoticeView.h; sourceTree = "<group>"; };
+		BF2B286F205912D2007A315B /* JGRollingNoticeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGRollingNoticeView.m; sourceTree = "<group>"; };
+		BF2B287220591315007A315B /* JGNoticeViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGNoticeViewCell.h; sourceTree = "<group>"; };
+		BF2B287320591315007A315B /* JGNoticeViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGNoticeViewCell.m; sourceTree = "<group>"; };
+		BF2B287520591447007A315B /* CustomNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNoticeCell.m; sourceTree = "<group>"; };
+		BF2B287620591447007A315B /* CustomNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNoticeCell.h; sourceTree = "<group>"; };
+		BF2B287720591447007A315B /* CustomNoticeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNoticeCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2B2836205910AD007A315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B284E205910AD007A315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B2859205910AD007A315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2B2830205910AD007A315B = {
+			isa = PBXGroup;
+			children = (
+				BF2B283B205910AD007A315B /* JGRollingNotice */,
+				BF2B2854205910AD007A315B /* JGRollingNoticeTests */,
+				BF2B285F205910AD007A315B /* JGRollingNoticeUITests */,
+				BF2B283A205910AD007A315B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2B283A205910AD007A315B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B2839205910AD007A315B /* JGRollingNotice.app */,
+				BF2B2851205910AD007A315B /* JGRollingNoticeTests.xctest */,
+				BF2B285C205910AD007A315B /* JGRollingNoticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2B283B205910AD007A315B /* JGRollingNotice */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B2871205912DD007A315B /* JGRollingNoticeView */,
+				BF2B283C205910AD007A315B /* AppDelegate.h */,
+				BF2B283D205910AD007A315B /* AppDelegate.m */,
+				BF2B283F205910AD007A315B /* ViewController.h */,
+				BF2B2840205910AD007A315B /* ViewController.m */,
+				BF23DC9A205B9187007F033D /* JGCustomNoticeCell.h */,
+				BF23DC9B205B9187007F033D /* JGCustomNoticeCell.m */,
+				BF2B287620591447007A315B /* CustomNoticeCell.h */,
+				BF2B287520591447007A315B /* CustomNoticeCell.m */,
+				BF2B287720591447007A315B /* CustomNoticeCell.xib */,
+				BF2B2842205910AD007A315B /* Main.storyboard */,
+				BF2B2845205910AD007A315B /* Assets.xcassets */,
+				BF2B2847205910AD007A315B /* LaunchScreen.storyboard */,
+				BF2B284A205910AD007A315B /* Info.plist */,
+				BF2B284B205910AD007A315B /* main.m */,
+			);
+			path = JGRollingNotice;
+			sourceTree = "<group>";
+		};
+		BF2B2854205910AD007A315B /* JGRollingNoticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B2855205910AD007A315B /* JGRollingNoticeTests.m */,
+				BF2B2857205910AD007A315B /* Info.plist */,
+			);
+			path = JGRollingNoticeTests;
+			sourceTree = "<group>";
+		};
+		BF2B285F205910AD007A315B /* JGRollingNoticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B2860205910AD007A315B /* JGRollingNoticeUITests.m */,
+				BF2B2862205910AD007A315B /* Info.plist */,
+			);
+			path = JGRollingNoticeUITests;
+			sourceTree = "<group>";
+		};
+		BF2B2871205912DD007A315B /* JGRollingNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B286E205912D2007A315B /* JGRollingNoticeView.h */,
+				BF2B286F205912D2007A315B /* JGRollingNoticeView.m */,
+				BF2B287220591315007A315B /* JGNoticeViewCell.h */,
+				BF2B287320591315007A315B /* JGNoticeViewCell.m */,
+			);
+			path = JGRollingNoticeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2B2838205910AD007A315B /* JGRollingNotice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2B2865205910AD007A315B /* Build configuration list for PBXNativeTarget "JGRollingNotice" */;
+			buildPhases = (
+				BF2B2835205910AD007A315B /* Sources */,
+				BF2B2836205910AD007A315B /* Frameworks */,
+				BF2B2837205910AD007A315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGRollingNotice;
+			productName = JGRollingNotice;
+			productReference = BF2B2839205910AD007A315B /* JGRollingNotice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2B2850205910AD007A315B /* JGRollingNoticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2B2868205910AD007A315B /* Build configuration list for PBXNativeTarget "JGRollingNoticeTests" */;
+			buildPhases = (
+				BF2B284D205910AD007A315B /* Sources */,
+				BF2B284E205910AD007A315B /* Frameworks */,
+				BF2B284F205910AD007A315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2B2853205910AD007A315B /* PBXTargetDependency */,
+			);
+			name = JGRollingNoticeTests;
+			productName = JGRollingNoticeTests;
+			productReference = BF2B2851205910AD007A315B /* JGRollingNoticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2B285B205910AD007A315B /* JGRollingNoticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2B286B205910AD007A315B /* Build configuration list for PBXNativeTarget "JGRollingNoticeUITests" */;
+			buildPhases = (
+				BF2B2858205910AD007A315B /* Sources */,
+				BF2B2859205910AD007A315B /* Frameworks */,
+				BF2B285A205910AD007A315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2B285E205910AD007A315B /* PBXTargetDependency */,
+			);
+			name = JGRollingNoticeUITests;
+			productName = JGRollingNoticeUITests;
+			productReference = BF2B285C205910AD007A315B /* JGRollingNoticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2B2831205910AD007A315B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JUN;
+				TargetAttributes = {
+					BF2B2838205910AD007A315B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BF2B2850205910AD007A315B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF2B2838205910AD007A315B;
+					};
+					BF2B285B205910AD007A315B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF2B2838205910AD007A315B;
+					};
+				};
+			};
+			buildConfigurationList = BF2B2834205910AD007A315B /* Build configuration list for PBXProject "JGRollingNotice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2B2830205910AD007A315B;
+			productRefGroup = BF2B283A205910AD007A315B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2B2838205910AD007A315B /* JGRollingNotice */,
+				BF2B2850205910AD007A315B /* JGRollingNoticeTests */,
+				BF2B285B205910AD007A315B /* JGRollingNoticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2B2837205910AD007A315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2B2849205910AD007A315B /* LaunchScreen.storyboard in Resources */,
+				BF2B2846205910AD007A315B /* Assets.xcassets in Resources */,
+				BF2B287920591448007A315B /* CustomNoticeCell.xib in Resources */,
+				BF2B2844205910AD007A315B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B284F205910AD007A315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B285A205910AD007A315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2B2835205910AD007A315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF23DC9C205B9187007F033D /* JGCustomNoticeCell.m in Sources */,
+				BF2B287820591448007A315B /* CustomNoticeCell.m in Sources */,
+				BF2B287420591315007A315B /* JGNoticeViewCell.m in Sources */,
+				BF2B2841205910AD007A315B /* ViewController.m in Sources */,
+				BF2B2870205912D2007A315B /* JGRollingNoticeView.m in Sources */,
+				BF2B284C205910AD007A315B /* main.m in Sources */,
+				BF2B283E205910AD007A315B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B284D205910AD007A315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2B2856205910AD007A315B /* JGRollingNoticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2B2858205910AD007A315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2B2861205910AD007A315B /* JGRollingNoticeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2B2853205910AD007A315B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2B2838205910AD007A315B /* JGRollingNotice */;
+			targetProxy = BF2B2852205910AD007A315B /* PBXContainerItemProxy */;
+		};
+		BF2B285E205910AD007A315B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2B2838205910AD007A315B /* JGRollingNotice */;
+			targetProxy = BF2B285D205910AD007A315B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF2B2842205910AD007A315B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2B2843205910AD007A315B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF2B2847205910AD007A315B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2B2848205910AD007A315B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2B2863205910AD007A315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2B2864205910AD007A315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2B2866205910AD007A315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGRollingNotice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumanduo.JGRollingNotice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF2B2867205910AD007A315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGRollingNotice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumanduo.JGRollingNotice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF2B2869205910AD007A315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGRollingNoticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumanduo.JGRollingNoticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGRollingNotice.app/JGRollingNotice";
+			};
+			name = Debug;
+		};
+		BF2B286A205910AD007A315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGRollingNoticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumanduo.JGRollingNoticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGRollingNotice.app/JGRollingNotice";
+			};
+			name = Release;
+		};
+		BF2B286C205910AD007A315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGRollingNoticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumanduo.JGRollingNoticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGRollingNotice;
+			};
+			name = Debug;
+		};
+		BF2B286D205910AD007A315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGRollingNoticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumanduo.JGRollingNoticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGRollingNotice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2B2834205910AD007A315B /* Build configuration list for PBXProject "JGRollingNotice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2B2863205910AD007A315B /* Debug */,
+				BF2B2864205910AD007A315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2B2865205910AD007A315B /* Build configuration list for PBXNativeTarget "JGRollingNotice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2B2866205910AD007A315B /* Debug */,
+				BF2B2867205910AD007A315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2B2868205910AD007A315B /* Build configuration list for PBXNativeTarget "JGRollingNoticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2B2869205910AD007A315B /* Debug */,
+				BF2B286A205910AD007A315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2B286B205910AD007A315B /* Build configuration list for PBXNativeTarget "JGRollingNoticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2B286C205910AD007A315B /* Debug */,
+				BF2B286D205910AD007A315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2B2831205910AD007A315B /* Project object */;
+}
